@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#EA4242</color>
+    <color name="et_login">#5B242424</color>
+    <color name="et_register">#88EBEBEB</color>
+    <color name="my_light_primary">#F35656</color>
+    <color name="my_dark_primary">#F35656</color>
+    <color name="list_movement">#EDE1E1</color>
+</resources>
