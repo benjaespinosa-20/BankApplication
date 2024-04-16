@@ -3,9 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="red">#EA4242</color>
-    <color name="et_login">#5B242424</color>
-    <color name="et_register">#88EBEBEB</color>
+    <color name="et_login">#5B303030</color>
+    <color name="et_register">#884E4E4E</color>
     <color name="my_light_primary">#F35656</color>
     <color name="my_dark_primary">#F35656</color>
-    <color name="list_movement">#EDE1E1</color>
+    <color name="list_movement">#F0E8E8</color>
+    <color name="buttonCamera">#06998C</color>
 </resources>

@@ -12,7 +12,6 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
 import kotlinx.coroutines.tasks.await
 import java.io.ByteArrayOutputStream
-import kotlin.random.Random
 
 class AuthDataSource {
     suspend fun signIn(email: String, password: String): FirebaseUser? {
@@ -48,7 +47,7 @@ class AuthDataSource {
         user?.updateProfile(profileUpdates)?.await()
     }
 
-    fun movementsRandom(): List<Movements> {
+    private fun movementsRandom(): List<Movements> {
         val movements = mutableListOf<Movements>()
         repeat(15) {
             movements.add(
@@ -71,7 +70,7 @@ class AuthDataSource {
         return movements
     }
 
-    fun nameMovementRandom(): String {
+    private fun nameMovementRandom(): String {
         val names = listOf("Deposit", "Withdrawal", "Transfer", "Payment", "Purchase")
         return names.random()
     }

@@ -12,8 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingHorizontal="8dp"
-        android:paddingVertical="6dp"
-        android:layout_marginBottom="4dp"
+        android:paddingVertical="2dp"
         android:gravity="center">
 
         <de.hdodenhof.circleimageview.CircleImageView
@@ -47,7 +46,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="4dp"
         android:paddingHorizontal="8dp"
         android:paddingBottom="8dp"
         android:gravity="center">

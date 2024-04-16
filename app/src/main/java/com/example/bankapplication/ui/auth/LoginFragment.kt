@@ -105,7 +105,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
                     binding.progressBar.visibility = View.GONE
                     Toast.makeText(
                         requireContext(),
-                        "Error: ${result.exception}",
+                        "Incorrect password or email",
                         Toast.LENGTH_SHORT
                     ).show()
                 }
